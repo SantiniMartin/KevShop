@@ -1,0 +1,79 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+}
+
+/* Estilado de mi header */
+.home{
+    /* text-align: center; */
+    /* list-style-position: inside; */
+    /* list-style-image:url(./recursos/imagenes/icons/bxs-home.svg); */
+    /* font-size: 24px; */
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+}
+
+
+.navegator{
+    width: 100vw;
+    height: 15vh;
+    background-image:linear-gradient(to top left, #19123B, #5644b1);
+    color: white;
+    padding: 10px 20px 10px;
+    text-decoration: none;
+}
+
+/*Body - Products - Cards*/
+.card{
+    border-radius: 5px;
+    width: 350px;
+    /* border: 2px solid #19123B; */
+    margin: 2px;
+    box-shadow: 3px 3px 6px 1px rgba(121, 120, 120, 0.726);
+    padding: 0 0 20px;
+}
+
+.img{
+    border-radius: 5px 5px 0 0;
+    height: 350px;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.title{
+    color: #99806C;
+    text-align: center;
+    margin: 10px 0;
+    text-shadow: 3px 3px 6px rgba(121, 120, 120, 0.726);
+}
+.contenido{
+    text-align: center;
+    text-shadow: 3px 3px 6px rgba(121, 120, 120, 0.726);
+}
+
+.cta{
+    text-align: center;
+    background: #7C3146;
+    display: block;
+    padding: 5px 0;
+    width: 120px;
+    color: aliceblue;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-decoration: none;
+}
+/* .catalogo-product{
+    display: grid;
+    grid-column: auto;
+} */
+
+/* .section{
+    font-size: 1rem
+} */
